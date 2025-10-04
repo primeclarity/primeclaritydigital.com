@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Clarity Digital | Remote Accounting for Online Businesses in UAE</title>
+    <meta name="description" content="Specialized remote accounting services for e-commerce, digital agencies, and online businesses in UAE. Born from Prime Clarity's mission to serve modern businesses.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Announcement Banner */
+        .announcement {
+            background: linear-gradient(90deg, #ff6b35 0%, #ff8c61 100%);
+            color: white;
+            padding: 12px 0;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .announcement a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+
+        /* Header */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff6b35;
+        }
+
+        .logo-sub {
+            font-size: 12px;
+            color: #6b7280;
+            font-weight: 400;
+            display: block;
+            margin-top: -4px;
+        }
+
+        .nav-cta {
+            background: #ff6b35;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-cta:hover {
+            background: #e55a2b;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0 100px;
+            background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 100%);
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 24px;
+            color: #1a1a1a;
+        }
+
+        .hero-subtitle {
+            font-size: 22px;
+            color: #4a5568;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            color: #6b7280;
+            margin-bottom: 40px;
+        }
+
+        .cta-primary {
+            display: inline-block;
+            background: #ff6b35;
+            color: white;
+            padding: 18px 48px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+        }
+
+        .cta-primary:hover {
+            background: #e55a2b;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+        }
+
+        .cta-secondary {
+            display: inline-block;
+            margin-left: 16px;
+            padding: 18px 48px;
+            border: 2px solid #ff6b35;
+            color: #ff6b35;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .cta-secondary:hover {
+            background: #ff6b35;
+            color: white;
+        }
+
+        /* Story Section */
+        .story-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .story-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .story-content h2 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            color: #1a1a1a;
+        }
+
+        .story-text {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 100%);
+            border-left: 4px solid #ff6b35;
+            padding: 32px;
+            border-radius: 12px;
+            margin: 40px 0;
+            text-align: left;
+        }
+
+        .highlight-box h3 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 16px;
+        }
+
+        .highlight-box p {
+            font-size: 18px;
+            color: #4a5568;
+            line-height: 1.7;
+        }
+
+        .highlight-box a {
+            color: #ff6b35;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        /* Who We Work With */
+        .who-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 100%);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: #1a1a1a;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 20px;
+            color: #6b7280;
+            margin-bottom: 60px;
+        }
+
+        .client-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .client-card {
+            padding: 32px;
+            background: white;
+            border-radius: 12px;
+            border: 2px solid #ffe8dc;
+            transition: all 0.3s;
+        }
+
+        .client-card:hover {
+            border-color: #ff6b35;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(255, 107, 53, 0.1);
+        }
+
+        .client-icon {
+            font-size: 36px;
+            margin-bottom: 16px;
+        }
+
+        .client-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+
+        .client-card p {
+            color: #6b7280;
+            font-size: 16px;
+        }
+
+        /* How It Works */
+        .how-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .step {
+            text-align: center;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            background: #ff6b35;
+            color: white;
+            border-radius: 50%;
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 60px;
+            margin-bottom: 24px;
+        }
+
+        .step h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+
+        .step p {
+            color: #6b7280;
+            font-size: 16px;
+        }
+
+        /* Packages */
+        .packages-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #fff5f0 0%, #ffe8dc 100%);
+        }
+
+        .packages {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .package {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 40px;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .package:hover {
+            border-color: #ff6b35;
+            transform: translateY(-8px);
+            box-shadow: 0 12px 32px rgba(255, 107, 53, 0.15);
+        }
+
+        .package.featured {
+            border-color: #ff6b35;
+            border-width: 3px;
+        }
+
+        .package-badge {
+            position: absolute;
+            top: -12px;
+            right: 24px;
+            background: #ff6b35;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        .package-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ff6b35;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .package-price {
+            font-size: 48px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .package-period {
+            color: #6b7280;
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+
+        .package ul {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .package li {
+            padding: 12px 0;
+            color: #4a5568;
+            font-size: 16px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .package li:before {
+            content: "✓";
+            color: #10b981;
+            font-weight: 700;
+            margin-right: 12px;
+            font-size: 18px;
+        }
+
+        .package-cta {
+            display: block;
+            width: 100%;
+            background: #ff6b35;
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .package-cta:hover {
+            background: #e55a2b;
+        }
+
+        /* Why Remote Section */
+        .why-remote-section {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .why-card {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .why-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .why-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #1a1a1a;
+        }
+
+        .why-card p {
+            color: #6b7280;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 100px 0;
+            background: #ff6b35;
+            color: white;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 24px;
+        }
+
+        .contact-section p {
+            font-size: 22px;
+            margin-bottom: 48px;
+            opacity: 0.9;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            padding: 20px 48px;
+            background: white;
+            color: #ff6b35;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-btn.secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .contact-btn.secondary:hover {
+            background: white;
+            color: #ff6b35;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ff6b35;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .hero-subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+            .cta-secondary {
+                margin-left: 0;
+                margin-top: 16px;
+                display: block;
+            }
+
+            .packages {
+                grid-template-columns: 1fr;
+            }
+
+            .steps {
+                grid-template-columns: 1fr;
+            }
+
+            .story-text {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Announcement Banner -->
+    <div class="announcement">
+        ⭐ Part of the Prime Clarity family. For traditional accounting services, visit <a href="https://primeclarity.ae" target="_blank">primeclarity.ae</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div>
+                <div class="logo">Prime Clarity Digital</div>
+                <span class="logo-sub">Remote-First Accounting</span>
+            </div>
+            <a href="https://calendly.com/primeclarity01/30min" class="nav-cta" target="_blank">Book Free Call</a>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🚀 Built for Remote Businesses</div>
+                <h1>Accounting for Businesses That Run From Laptops</h1>
+                <p class="hero-subtitle">We handle your UAE bookkeeping, VAT, and corporate tax completely remotely—so you can focus on growing your business from anywhere.</p>
+                <p class="hero-description">No office visits. No paper. No chasing. Just clean books and Stripe invoices.</p>
+                <a href="https://calendly.com/primeclarity01/30min" class="cta-primary" target="_blank">Book Free Consultation</a>
+
+                <a href="#packages" class="cta-secondary">View Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-content">
+                <h2>Why We Built Prime Clarity Digital</h2>
+                
+                <p class="story-text">
+                    After launching Prime Clarity and working with our first traditional clients, we noticed something: a growing number of businesses were reaching out that operated completely online.
+                </p>
+                
+                <p class="story-text">
+                    E-commerce sellers shipping globally. Digital agencies with remote teams. SaaS companies with customers in 50 countries. Content creators managing multiple income streams.
+                </p>
+                
+                <p class="story-text">
+                    They all had the same frustration: <strong>traditional accounting firms didn't understand how they worked.</strong>
+                </p>
+
+                <div class="highlight-box">
+                    <h3>The Problem We Kept Hearing:</h3>
+                    <p>
+                        "My accountant wants me to print receipts and bring them to their office. I haven't printed anything in 3 years."<br><br>
+                        "They don't understand Stripe, PayPal, or marketplace accounting."<br><br>
+                        "Why do we need in-person meetings when my entire business runs on Zoom?"
+                    </p>
+                </div>
+
+                <p class="story-text">
+                    So we made a decision: <strong>we'd build a specialized division for remote and online businesses.</strong>
+                </p>
+
+                <p class="story-text">
+                    Prime Clarity Digital was born. Same trusted team, same ACCA qualifications, same commitment to excellence—but designed from the ground up for businesses that operate in the cloud.
+                </p>
+
+                <div class="highlight-box">
+                    <h3>Two Divisions, One Mission:</h3>
+                    <p>
+                        <strong><a href="https://primeclarity.ae" target="_blank">Prime Clarity</a></strong> serves traditional businesses that prefer face-to-face relationships and local support.<br><br>
+                        <strong>Prime Clarity Digital</strong> (that's us!) serves remote-first businesses that need accounting as modern as their operations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Work With -->
+    <section class="who-section">
+        <div class="container">
+            <h2 class="section-title">Who We Work With</h2>
+            <p class="section-subtitle">We specialize in remote and online businesses in the UAE</p>
+            
+            <div class="client-types">
+                <div class="client-card">
+                    <div class="client-icon">🛒</div>
+                    <h3>E-commerce Sellers</h3>
+                    <p>Amazon, Noon, Shopify stores. We understand marketplace accounting, currency conversions, and inventory tracking.</p>
+                </div>
+                
+                <div class="client-card">
+                    <div class="client-icon">💼</div>
+                    <h3>Digital Agencies</h3>
+                    <p>Marketing, design, consulting. We handle project-based revenue, retainers, and multi-currency clients.</p>
+                </div>
+                
+                <div class="client-card">
+                    <div class="client-icon">💻</div>
+                    <h3>SaaS Companies</h3>
+                    <p>Software businesses with recurring revenue, subscription models, and global customer bases.</p>
+                </div>
+                
+                <div class="client-card">
+                    <div class="client-icon">🎥</div>
+                    <h3>Content Creators</h3>
+                    <p>YouTubers, influencers, course creators with UAE entities and multiple income streams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Get started in 3 simple steps—100% remotely</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>15-Minute Video Call</h3>
+                    <p>We'll understand your business model, current setup, and pain points. No office visit required. No pressure, no sales pitch.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>48-Hour Onboarding</h3>
+                    <p>We'll connect to your Stripe, PayPal, bank accounts via secure cloud integrations. Everything digital, nothing manual.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Never Think About It Again</h3>
+                    <p>We handle everything remotely. Monthly reports to your inbox. Stripe invoices. WhatsApp support. That's it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Remote -->
+    <section class="why-remote-section">
+        <div class="container">
+            <h2 class="section-title">Why Remote-First Works Better</h2>
+            <p class="section-subtitle">We're not traditional accountants trying to go digital. We're digital-first from day one.</p>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">⚡</div>
+                    <h3>Faster Response Times</h3>
+                    <p>WhatsApp, email, Slack—however you communicate, we're there. No waiting for office hours.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Lower Overhead = Better Pricing</h3>
+                    <p>No expensive office rent means we can offer premium service at competitive rates.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🌍</div>
+                    <h3>We Get Global Business</h3>
+                    <p>Multi-currency transactions, international payments, marketplace fees—we speak your language.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">🔒</div>
+                    <h3>Bank-Grade Security</h3>
+                    <p>Cloud accounting with encryption, two-factor authentication, and read-only access to your accounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="packages-section" id="packages">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Choose the package that fits your business—all 100% remote</p>
+            
+            <div class="packages">
+                <div class="package">
+                    <div class="package-name">Starter</div>
+                    <div class="package-price">AED 2,500</div>
+                    <div class="package-period">per month</div>
+                    <ul>
+                        <li>Monthly bookkeeping (100 transactions)</li>
+                        <li>VAT return filing</li>
+                        <li>Bank reconciliation</li>
+                        <li>P&L and Balance Sheet</li>
+                        <li>WhatsApp support (24hr response)</li>
+                        <li>Cloud accounting dashboard access</li>
+                    </ul>
+                    <a href="#contact" class="package-cta">Get Started</a>
+                </div>
+                
+                <div class="package featured">
+                    <div class="package-badge">Most Popular</div>
+                    <div class="package-name">Growth</div>
+                    <div class="package-price">AED 4,500</div>
+                    <div class="package-period">per month</div>
+                    <ul>
+                        <li>Everything in Starter</li>
+                        <li>Corporate tax compliance</li>
+                        <li>Quarterly video financial reviews</li>
+                        <li>Cash flow tracking & forecasting</li>
+                        <li>Multi-currency management</li>
+                        <li>Management reports dashboard</li>
+                        <li>Up to 250 transactions</li>
+                    </ul>
+                    <a href="#contact" class="package-cta">Get Started</a>
+                </div>
+                
+                <div class="package">
+                    <div class="package-name">CFO Lite</div>
+                    <div class="package-price">AED 7,500</div>
+                    <div class="package-period">per month</div>
+                    <ul>
+                        <li>Everything in Growth</li>
+                        <li>Monthly strategy video calls (30 min)</li>
+                        <li>6-month financial forecasting</li>
+                        <li>Custom KPI dashboard</li>
+                        <li>Tax optimization strategies</li>
+                        <li>Marketplace accounting (Amazon, Shopify)</li>
+                        <li>Unlimited transactions</li>
+                    </ul>
+                    <a href="#contact" class="package-cta">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/CTA -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Ready to Go Remote?</h2>
+            <p>Book a free 15-minute video consultation. No sales pitch, just a conversation about your business.</p>
+            
+            <div class="contact-buttons">
+                <a href="https://calendly.com/your-link" class="contact-btn" target="_blank">Book Free Call</a>
+                <a href="https://wa.me/971XXXXXXXXX" class="contact-btn secondary" target="_blank">WhatsApp Us</a>
+            </div>
+            
+            <p style="margin-top: 40px; font-size: 18px;">
+                📧 digital@primeclarity.ae<br>
+                📱 WhatsApp: +971 XX XXX XXXX
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Prime Clarity Digital. A division of Prime Clarity Accounting & Bookkeeping LLC.</p>
+            <p style="margin-top: 8px;">
+                Registered in Abu Dhabi, UAE | 
+                <a href="https://primeclarity.ae" target="_blank">Visit Prime Clarity (Traditional Services)</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
